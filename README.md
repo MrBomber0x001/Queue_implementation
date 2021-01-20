@@ -12,5 +12,5 @@ then run the program
 ```
 
 ## Contributing
-Pull reuests are welcome, for changes please open am issue first to discuss what would you like to change.
+Pull reuests are welcome, for changes please open an issue first to discuss what would you like to change.
 
