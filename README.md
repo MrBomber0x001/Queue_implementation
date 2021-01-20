@@ -1,5 +1,7 @@
 # Queue implementation
-Implementing a queue data structure using both arrays and linked lists
+Implementing a queue data structure based on:
+1-Arrays
+2-Linked lists
 
 ## Compiling
 First compile the program using [make](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html)

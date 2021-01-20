@@ -4,40 +4,11 @@
 # include "queue.c"
 int main()
 {
-    Queue q;
-    QueueEntry e;
-    CreateQueue(&q);
-    int x;
- if (QueueEmpty(&q))
-     {
-          Enqueue(5,&q);
-          Enqueue(6,&q);
-          Enqueue(1,&q);
-     }
- 
-    printf("The elements of the queue are: ");
-         TraverseQueue(&q, &Display);
-    printf("\n");
-         x=QueueSize(&q);
-    printf("The size of the queue: %d\n", x);
- 
-   if (!QueueEmpty(&q))
-       {
-          Dequeue(&e , &q);
-       }
- 
-   printf("One element was removed\n");
-   printf("The elements of the queue are: ");
-         TraverseQueue(&q, &Display);
-   printf("\n");
- 
-        x=QueueSize(&q);
-   printf("The size of the queue: %d\n", x);
-        ClearQueue(&q);
-   printf("The queue now is clear\n");
-        x=QueueSize(&q);
-   printf("Size: %d\n", x);
- 
- 
-    return 0;
+        Queue q;
+	CreateQueue(&q);
+	Enqueue(5, &q);
+	Enqueue(7, &q);
+	Enqueue(8, &q);
+	printf("%d", QueueSize(&q));
+	return 0;
 }
