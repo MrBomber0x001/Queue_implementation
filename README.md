@@ -1,5 +1,6 @@
 # Queue implementation
 Implementing a queue data structure based on:
+
 1-Arrays
 2-Linked lists
 
@@ -14,5 +15,5 @@ then run the program
 ```
 
 ## Contributing
-Pull reuests are welcome, for changes please open an issue first to discuss what would you like to change.
+Pull requests are welcome, for changes please open an issue first to discuss what would you like to change.
 
